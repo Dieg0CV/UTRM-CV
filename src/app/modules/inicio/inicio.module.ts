@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 import { InicioRoutingModule } from './inicio-routing.module';
 import { InicioComponent } from './inicio.component';
@@ -14,7 +15,9 @@ import { InicioComponent } from './inicio.component';
     ],
     imports: [
         CommonModule,
-        InicioRoutingModule
+        InicioRoutingModule,
+        MatSlideToggleModule,
+
     ]
 })
 export class InicioModule { }
