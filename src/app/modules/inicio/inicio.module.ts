@@ -5,6 +5,10 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { InicioRoutingModule } from './inicio-routing.module';
 import { InicioComponent } from './inicio.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
+import {MatGridListModule} from "@angular/material/grid-list";
+import {MatListModule} from "@angular/material/list";
 
 
 @NgModule({
@@ -19,6 +23,10 @@ import {MatToolbarModule} from "@angular/material/toolbar";
     InicioRoutingModule,
     MatSlideToggleModule,
     MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatGridListModule,
+    MatListModule,
 
   ]
 })
