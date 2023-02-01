@@ -4,6 +4,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 import { InicioRoutingModule } from './inicio-routing.module';
 import { InicioComponent } from './inicio.component';
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 
 @NgModule({
@@ -13,11 +14,12 @@ import { InicioComponent } from './inicio.component';
     exports: [
         InicioComponent
     ],
-    imports: [
-        CommonModule,
-        InicioRoutingModule,
-        MatSlideToggleModule,
+  imports: [
+    CommonModule,
+    InicioRoutingModule,
+    MatSlideToggleModule,
+    MatToolbarModule,
 
-    ]
+  ]
 })
 export class InicioModule { }
