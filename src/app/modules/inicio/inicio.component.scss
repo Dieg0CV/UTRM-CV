@@ -3,8 +3,24 @@
 }
 
 
+.name{
+  background-image: url("https://github.com/Dieg0CV/UTRM-CV/blob/12e8068e826fa565a089009b0e195e6519d55aa4/src/assets/fondo_inicio.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+mat-grid-list{
+  background: transparent;
+
+}
 
 
 mat-grid-tile {
-  background: lightblue;
+  color: aliceblue;
+  font-size: 50px;
 }
