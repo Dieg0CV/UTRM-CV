@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { EducacionRoutingModule } from './educacion-routing.module';
 import { EducacionComponent } from './educacion.component';
+import {MatGridListModule} from "@angular/material/grid-list";
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { EducacionComponent } from './educacion.component';
     ],
     imports: [
         CommonModule,
-        EducacionRoutingModule
+        EducacionRoutingModule,
+        MatGridListModule
     ]
 })
 export class EducacionModule { }

@@ -9,6 +9,10 @@ import {EducacionModule} from "./modules/educacion/educacion.module";
 import {ExperienciaModule} from "./modules/experiencia/experiencia.module";
 import {HabilidadesModule} from "./modules/habilidades/habilidades.module";
 import {ContactoModule} from "./modules/contacto/contacto.module";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatIconModule} from "@angular/material/icon";
+import {MatMenuModule} from "@angular/material/menu";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import {ContactoModule} from "./modules/contacto/contacto.module";
     EducacionModule,
     ExperienciaModule,
     HabilidadesModule,
-    ContactoModule
+    ContactoModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatMenuModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
