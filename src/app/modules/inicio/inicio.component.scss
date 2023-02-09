@@ -3,8 +3,8 @@
 }
 
 
-.name{
-  background-image: url("https://github.com/Dieg0CV/UTRM-CV/blob/12e8068e826fa565a089009b0e195e6519d55aa4/src/assets/fondo_inicio.jpg");
+.fondoHome{
+  background-image: url("https://img.freepik.com/vector-gratis/sala-galeria-columnas-inclinadas-paredes-negras_107791-16927.jpg?w=1380&t=st=1675970527~exp=1675971127~hmac=a9e104a0ceaad7077ccd5556f0b974988587b43c20689b21130f1299f9f45a6d");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
@@ -13,14 +13,41 @@
   position: relative;
 }
 
+.textHome{
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-mat-grid-list{
-  background: transparent;
-
+.aboutMe{
+  text-align: center;
 }
 
 
+mat-grid-list{
+  background: rgba(26, 26, 26, 1);
+
+}
+
+.borderImg{
+  border: 5px solid aqua;
+
+}
+
 mat-grid-tile {
-  color: aliceblue;
-  font-size: 50px;
+  color: white;
+
+}
+
+.example-card {
+  max-width: 400px;
+  background: transparent;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
 }
