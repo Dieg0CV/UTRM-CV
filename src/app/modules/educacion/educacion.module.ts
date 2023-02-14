@@ -5,6 +5,7 @@ import { EducacionRoutingModule } from './educacion-routing.module';
 import { EducacionComponent } from './educacion.component';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatCardModule} from "@angular/material/card";
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {MatCardModule} from "@angular/material/card";
         CommonModule,
         EducacionRoutingModule,
         MatGridListModule,
-        MatCardModule
+        MatCardModule,
+        MatButtonModule
     ]
 })
 export class EducacionModule { }
