@@ -6,6 +6,7 @@ import { HabilidadesComponent } from './habilidades.component';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatCardModule} from "@angular/material/card";
+import {MatListModule} from "@angular/material/list";
 
 
 @NgModule({
@@ -15,12 +16,13 @@ import {MatCardModule} from "@angular/material/card";
     exports: [
         HabilidadesComponent
     ],
-  imports: [
-    CommonModule,
-    HabilidadesRoutingModule,
-    MatGridListModule,
-    MatProgressBarModule,
-    MatCardModule
-  ]
+    imports: [
+        CommonModule,
+        HabilidadesRoutingModule,
+        MatGridListModule,
+        MatProgressBarModule,
+        MatCardModule,
+        MatListModule
+    ]
 })
 export class HabilidadesModule { }

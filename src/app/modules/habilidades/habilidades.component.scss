@@ -1,3 +1,20 @@
 mat-grid-tile {
-  background: lightblue;
+  background-color: rgba(26, 26, 26, 1);
+  color: black;
+  align-content: start;
+}
+
+mat-card{
+  background-color: rgba(26, 26, 26, 1);
+  color: white;
+}
+
+mat-list{
+  color: white;
+  width: 100%;
+}
+
+.mat-list-item{
+  color: white;
+  padding-bottom: 10px;
 }

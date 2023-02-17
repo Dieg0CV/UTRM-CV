@@ -1,41 +1,79 @@
 <p>habilidades works!</p>
-<mat-grid-list cols="2"  rowHeight="2:1">
-  <mat-grid-tile>
 
-    <mat-card style="width: 80%">
-      <mat-card-content>
-        <h2>skill</h2>
-        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-      </mat-card-content>
-    </mat-card>
-    <mat-card style="width: 80%">
-      <mat-card-content>
-        <h2>skill</h2>
-        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-      </mat-card-content>
-    </mat-card>
-    <mat-card style="width: 80%">
-      <mat-card-content>
-        <h2>skill</h2>
-        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-      </mat-card-content>
-    </mat-card>
-    <mat-card style="width: 80%">
-      <mat-card-content>
-        <h2>skill</h2>
-        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-      </mat-card-content>
-    </mat-card>
+<mat-grid-list cols="4" rowHeight="100px">
+  <mat-grid-tile style="background-color: white"
 
-
+    [colspan]="2"
+    [rowspan]="1">
+    1
   </mat-grid-tile>
-  <mat-grid-tile>
-    <mat-card>
-      <mat-card-content>Simple card</mat-card-content>
-    </mat-card>
+  <mat-grid-tile style="background-color: white" [colspan]="2" [rowspan]="3">
+    <p>2</p>
   </mat-grid-tile>
-  <mat-grid-tile>3</mat-grid-tile>
-  <mat-grid-tile>4</mat-grid-tile>
+  <mat-grid-tile style="background-color: white"
+
+                 [colspan]="2"
+                 [rowspan]="2">
+    <p>3</p>
+  </mat-grid-tile>
+
+
+</mat-grid-list>
+
+
+
+
+<mat-grid-list cols="2" rowHeight="2:1">
+
+  <mat-grid-tile>
+    <mat-list role="list">
+      <mat-list-item style="text-align: center">
+        <h2 style="color: white">adadad</h2>
+      </mat-list-item>
+
+      <mat-list-item role="listitem" style="height: 100%" >
+        <mat-card>
+          <mat-card-content>
+            <h2>skill</h2>
+            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </mat-card-content>
+        </mat-card>
+      </mat-list-item>
+
+      <mat-list-item role="listitem" style="height: 100%">
+        <mat-card>
+          <mat-card-content>
+            <h2>skill</h2>
+            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </mat-card-content>
+        </mat-card>
+      </mat-list-item>
+
+      <mat-list-item role="listitem" style="height: 100%">
+        <mat-card>
+          <mat-card-content>
+            <h2>skill</h2>
+            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </mat-card-content>
+        </mat-card>
+      </mat-list-item>
+
+      <mat-list-item role="listitem" style="height: 100%">
+        <mat-card>
+          <mat-card-content>
+            <h2>skill</h2>
+            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </mat-card-content>
+        </mat-card>
+      </mat-list-item>
+
+    </mat-list>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    2
+  </mat-grid-tile>
+
 </mat-grid-list>
 
 
