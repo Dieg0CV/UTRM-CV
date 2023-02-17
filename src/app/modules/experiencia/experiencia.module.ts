@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ExperienciaRoutingModule } from './experiencia-routing.module';
 import { ExperienciaComponent } from './experiencia.component';
+import {MatCardModule} from "@angular/material/card";
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ExperienciaComponent } from './experiencia.component';
     ],
     imports: [
         CommonModule,
-        ExperienciaRoutingModule
+        ExperienciaRoutingModule,
+        MatCardModule
     ]
 })
 export class ExperienciaModule { }

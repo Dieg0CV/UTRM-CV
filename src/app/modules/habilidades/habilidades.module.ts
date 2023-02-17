@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 
 import { HabilidadesRoutingModule } from './habilidades-routing.module';
 import { HabilidadesComponent } from './habilidades.component';
+import {MatGridListModule} from "@angular/material/grid-list";
+import {MatProgressBarModule} from "@angular/material/progress-bar";
+import {MatCardModule} from "@angular/material/card";
 
 
 @NgModule({
@@ -12,9 +15,12 @@ import { HabilidadesComponent } from './habilidades.component';
     exports: [
         HabilidadesComponent
     ],
-    imports: [
-        CommonModule,
-        HabilidadesRoutingModule
-    ]
+  imports: [
+    CommonModule,
+    HabilidadesRoutingModule,
+    MatGridListModule,
+    MatProgressBarModule,
+    MatCardModule
+  ]
 })
 export class HabilidadesModule { }
