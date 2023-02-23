@@ -5,6 +5,7 @@
 
 mat-grid-tile {
   background: lightblue;
+  align-content: center;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
@@ -84,7 +85,7 @@ textarea {
 }
 
 .mat-form-field {
-  width: 100%;
+  width: auto;
 }
 
 .btn-custom {
@@ -100,6 +101,6 @@ textarea {
 
 @media(max-width:786px) {
   form {
-    width: 70%;
+    width: auto;
   }
 }
