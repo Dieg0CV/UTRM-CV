@@ -1,9 +1,43 @@
-<div style="background-color: rgba(26, 26, 26, 1) ">
+<mat-sidenav-container>
+
+    <!-- The side nav -->
+    <mat-sidenav #drawer fixedInViewport="true"  [opened]="false">
+      <mat-toolbar color="primary">Menu</mat-toolbar>
+      <mat-nav-list>
+        <a mat-list-item href="">ITEM1</a>
+        <a mat-list-item href="">ITEM2</a>
+        <a mat-list-item href="">ITEM3</a>
+        <a mat-list-item href="">ITEM4</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <!-- EO: Side nav-->
+
+    <!-- Side nav content-->
+    <mat-sidenav-content>
+      <mat-toolbar color="primary" class="position-fixed">
+        <button
+          type="button"
+          aria-label="Toggle sidenav"
+          mat-icon-button
+          (click)="drawer.toggle()">
+          <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        </button>
+        <span class="mat-spacer"></span>
+        <span></span>
+      </mat-toolbar>
+
+    </mat-sidenav-content>
+    <!-- EO: Side nav content-->
+  </mat-sidenav-container>
+
+
+<div style="background: rgba(26, 26, 26, 1);">
+
 <app-inicio></app-inicio>
 <app-educacion></app-educacion>
 <app-experiencia></app-experiencia>
 <app-habilidades></app-habilidades>
 <app-contacto></app-contacto>
-</div>
 
+</div>
 
